@@ -136,8 +136,7 @@ Calculated as: Number of Profitable Trades / Total Number of Trades
 | ARIMA Enhanced Policy Network | 885.61 | 4.25 | 5.09 | 0.52 |
 
 ## LSTM-Enhanced Model Performance Analysis
-![LSTM Model Performance](./images/lstm_performance.png)
-
+![Performance of Policy Networks integrated with LSTM](LSTM_performance.png)
 ### Performance Plot Analysis
 
 1. **Total Reward per Episode**
