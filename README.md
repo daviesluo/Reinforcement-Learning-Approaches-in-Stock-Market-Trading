@@ -106,37 +106,24 @@ The training process was carefully designed to ensure optimal model performance 
 ## Evaluation Metrics
 
 ### 1. Cumulative Return
-$$ \text{Cumulative Return} = \frac{\text{NetWorth}_\text{end}}{\text{NetWorth}_\text{start}} - 1 $$
-
-- **Purpose**: Measures total strategy profitability
-- **Significance**: Direct indicator of investment success
-- **Interpretation**: Higher values indicate better absolute performance
+Calculated as: (Final Net Worth / Initial Net Worth) - 1
+- Measures the total percentage return over the investment period
+- Direct indicator of strategy's absolute performance
 
 ### 2. Sharpe Ratio
-$$ \text{Sharpe Ratio} = \frac{E[R_p - R_f]}{\sigma_p} $$
-
-Where:
-- $R_p$: Portfolio return
-- $R_f$: Risk-free rate
-- $\sigma_p$: Standard deviation of portfolio returns
-
-- **Purpose**: Risk-adjusted performance measure
-- **Significance**: Evaluates return per unit of risk
-- **Interpretation**: Higher ratios indicate better risk-adjusted returns
+Calculated as: (Portfolio Return - Risk-free Rate) / Portfolio Standard Deviation
+- Evaluates risk-adjusted returns
+- Higher values indicate better risk-adjusted performance
 
 ### 3. Maximum Drawdown
-$$ \text{Maximum Drawdown} = \frac{\max_{t\in[0,T]}(\text{NetWorth}_\text{peak} - \text{NetWorth}_\text{trough})}{\text{NetWorth}_\text{peak}} $$
-
-- **Purpose**: Measures worst-case scenario loss
-- **Significance**: Key risk management metric
-- **Interpretation**: Lower values indicate better downside protection
+Calculated as: (Peak Net Worth - Trough Net Worth) / Peak Net Worth
+- Measures the largest peak-to-trough decline
+- Key risk assessment metric
 
 ### 4. Hit Ratio
-$$ \text{Hit Ratio} = \frac{\text{Number of Profitable Trades}}{\text{Total Number of Trades}} $$
-
-- **Purpose**: Measures trading consistency
-- **Significance**: Indicates strategy reliability
-- **Interpretation**: Higher ratios suggest more consistent profitability
+Calculated as: Number of Profitable Trades / Total Number of Trades
+- Measures trading accuracy and consistency
+- Higher ratios indicate a more reliable strategy
 
 ## Model Performance Comparison
 
@@ -149,7 +136,7 @@ $$ \text{Hit Ratio} = \frac{\text{Number of Profitable Trades}}{\text{Total Numb
 | ARIMA Enhanced Policy Network | 885.61 | 4.25 | 5.09 | 0.52 |
 
 ## LSTM-Enhanced Model Performance Analysis
-[Insert LSTM_performance.png]
+![LSTM Model Performance](./images/lstm_performance.png)
 
 ### Performance Plot Analysis
 
