@@ -137,40 +137,21 @@ Calculated as: Number of Profitable Trades / Total Number of Trades
 
 ## LSTM-Enhanced Model Performance Analysis
 ![Performance of Policy Networks integrated with LSTM](LSTM_performance.png)
-### Performance Plot Analysis
 
-1. **Total Reward per Episode**
-   - Stable learning progression
-   - Consistent improvement trend
-   - Final convergence around reward value 3
-   - Minimal volatility in later episodes
+## Conclusion
 
-2. **Cumulative Reward per Year**
-   - Progressive improvement across episodes
-   - Clear differentiation between early and late episodes
-   - Strong performance in recent periods
-   - Effective learning pattern establishment
+### Summary of Findings
+The research demonstrates the effectiveness of combining sophisticated RL algorithms with deep learning methodologies for stock trading. Key achievements include:
 
-3. **Stock Price over Time**
-   - Accurate tracking of both AMD and Nvidia
-   - Successful capture of market trends
-   - Effective handling of price volatility
-   - Clear visualization of price movements
+1. **Superior Performance**: LSTM-enhanced Policy Networks achieved highest returns (2926.10%) and Sharpe ratio (5.57)
+2. **Enhanced Decision Making**: Successful integration of comprehensive indicators spanning financial, economic, and social factors
+3. **Active Strategy**: Effective exploration strategies and no-action penalties promoted consistent performance
+4. **Robust Framework**: Established foundation for future RL applications in stock trading
 
-4. **Action Distribution**
-   - Strategic trading decisions
-   - Well-balanced buy/sell ratio
-   - Appropriate holding periods
-   - Effective market timing
+### Future Work
+1. **Real-time Data Integration**: Enhance model adaptability and responsiveness
+2. **Sophisticated Risk Management**: Develop advanced loss mitigation strategies
+3. **Diverse Financial Instruments**: Expand to options and futures trading
+4. **Computational Efficiency**: Optimize for larger datasets
+5. **Ethical Considerations**: Ensure fair and responsible trading practices
 
-5. **Money Transactions**
-   - Efficient capital utilization
-   - Strategic position sizing
-   - Risk-aware trading execution
-   - Profitable trade management
-
-6. **Net Worth Evolution**
-   - Consistent portfolio growth
-   - Effective drawdown management
-   - Superior risk-adjusted returns
-   - Sustainable wealth accumulation
