@@ -127,13 +127,13 @@ Calculated as: Number of Profitable Trades / Total Number of Trades
 
 ## Model Performance Comparison
 
-| Model Type | Return (%) | Sharpe Ratio | Max Drawdown ($M) | Hit Ratio |
-|------------|------------|--------------|-------------------|-----------|
-| LSTM Enhanced Policy Gradient | 2926.10 | 5.57 | 7.04 | 0.69 |
-| Policy Network with Baseline | 1529.99 | 5.06 | 6.10 | 0.63 |
-| Actor-Critic with Epsilon-Greedy | 916.00 | 4.17 | 4.22 | 0.57 |
-| Deep Q-Learning | 734.60 | 4.64 | 3.25 | 0.60 |
-| ARIMA Enhanced Policy Network | 885.61 | 4.25 | 5.09 | 0.52 |
+| Model Type | Environment | Return (%) | Sharpe Ratio | Max Drawdown ($M) | Hit Ratio |
+|------------|------------|------------|--------------|-------------------|-----------|
+| LSTM Enhanced Policy Gradient | Complex Trader | 2926.10 | 5.57 | 7.04 | 0.69 |
+| Policy Network with Baseline | Complex Trader | 1529.99 | 5.06 | 6.10 | 0.63 |
+| Actor-Critic with Epsilon-Greedy | Complex Trader | 916.00 | 4.17 | 4.22 | 0.57 | 
+| Deep Q-Learning | Simple Trader | 734.60 | 4.64 | 3.25 | 0.60 |
+| ARIMA Enhanced Policy Network | Complex Trader | 885.61 | 4.25 | 5.09 | 0.52 |
 
 ### LSTM-Enhanced Model Performance Analysis
 ![Performance of Policy Networks integrated with LSTM](LSTM_performance.png)
