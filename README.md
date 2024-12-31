@@ -68,8 +68,8 @@ The trading environment is built on OpenAI Gymnasium, customized for financial m
    - Starting balance: $1,000,000
    - Zero initial positions
      
-## Trading Agent Implementation
-### Simple Trader
+### Trading Agent Implementation
+#### Simple Trader
 - **Actions**: Buy/Sell/Hold with fixed 5% allocation
 - **Decision Logic**:
   - Buy: Purchase 5% of current balance
@@ -77,7 +77,7 @@ The trading environment is built on OpenAI Gymnasium, customized for financial m
   - Hold: No action
 - **Purpose**: Baseline performance benchmark
 
-### Complex Trader
+#### Complex Trader
 - **Continuous Action Space**: [-1, 1]
 - **Decision Logic**:
   - Positive value (0 to 1): Buy a proportional amount
@@ -86,10 +86,10 @@ The trading environment is built on OpenAI Gymnasium, customized for financial m
 - **Position Sizing**: Dynamic allocation based on model output
 - **Advanced Features**: Risk management, position scaling
 
-### Training Strategy
+## Training Strategy
 The training process was carefully designed to ensure optimal model performance and learning efficiency:
 
-#### Grid Search Optimization
+### Grid Search Optimization
 - **Hyperparameters Explored**:
   - Number of steps per episode
   - Batch size
@@ -97,7 +97,7 @@ The training process was carefully designed to ensure optimal model performance 
 - **Optimization Goal**: Maximize average reward across training runs
 - **Validation Process**: 100 episodes with 100 steps each
 
-#### Full Training Implementation
+### Full Training Implementation
 - **Duration**: 20,000 episodes
 - **Episode Length**: 100 steps per episode
 - **Data Sampling**: Random selection from AMD and Nvidia stock data
@@ -135,12 +135,10 @@ Calculated as: Number of Profitable Trades / Total Number of Trades
 | Deep Q-Learning | 734.60 | 4.64 | 3.25 | 0.60 |
 | ARIMA Enhanced Policy Network | 885.61 | 4.25 | 5.09 | 0.52 |
 
-## LSTM-Enhanced Model Performance Analysis
+### LSTM-Enhanced Model Performance Analysis
 ![Performance of Policy Networks integrated with LSTM](LSTM_performance.png)
 
-## Conclusion
-
-### Summary of Findings
+## Summary of Findings
 The research demonstrates the effectiveness of combining sophisticated RL algorithms with deep learning methodologies for stock trading. Key achievements include:
 
 1. **Superior Performance**: LSTM-enhanced Policy Networks achieved highest returns (2926.10%) and Sharpe ratio (5.57)
@@ -148,7 +146,7 @@ The research demonstrates the effectiveness of combining sophisticated RL algori
 3. **Active Strategy**: Effective exploration strategies and no-action penalties promoted consistent performance
 4. **Robust Framework**: Established foundation for future RL applications in stock trading
 
-### Future Work
+## Future Work
 1. **Real-time Data Integration**: Enhance model adaptability and responsiveness
 2. **Sophisticated Risk Management**: Develop advanced loss mitigation strategies
 3. **Diverse Financial Instruments**: Expand to options and futures trading
