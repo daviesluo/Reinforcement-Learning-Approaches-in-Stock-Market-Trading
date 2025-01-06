@@ -65,7 +65,7 @@ The financial industry and stock market analysis have been transformed by digita
 
 - **Social Metrics**
   - Google Trends data for "AMD" and "Nvidia"
-  - 
+    
 ### Data Processing   
   - Time series alignment
   - Feature engineering
