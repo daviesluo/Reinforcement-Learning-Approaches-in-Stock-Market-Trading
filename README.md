@@ -9,9 +9,31 @@ The financial industry and stock market analysis have been transformed by digita
 3. Development of practical trading strategies
 4. Establishment of a research foundation for future work
 
-## Dataset Features and Structure
-### Market Data (1-minute intervals, 2019-2024)
-- **NVIDIA & AMD OHLCV Data**
+## Technical Implementation
+### Core Technologies
+- Python
+- TensorFlow/PyTorch
+- OpenAI Gymnasium
+- Financial APIs (Yahoo Finance, Federal Reserve Bank)
+
+### RL Algorithms
+1. **Deep Q-Learning**
+   - Implementation in Simple Trader environment
+   - PPO algorithm with stable-baselines3
+   - Hyperparameter optimization
+
+2. **Policy-Based Methods**
+   - Policy Gradient
+   - Policy Gradient with Baseline
+   - Actor-Critic with Epsilon-Greedy
+
+3. **Time Series and Deep Learning Integration**
+   - ARIMA implementation
+   - LSTM networks Integration
+          
+## Data Processing
+### Data Sources
+- **NVIDIA & AMD OHLCV Data (1-minute intervals, 2019-2024)**
   - Open price
   - High price
   - Low price
@@ -19,21 +41,27 @@ The financial industry and stock market analysis have been transformed by digita
   - Trading volume
   - Shares split information calculated in
 
-### Financial Indices
-- S&P 500 Index
-- NASDAQ-100 Index
-- PHLX Semiconductor Index
+- **Financial Indices**
+  - S&P 500 Index
+  - NASDAQ-100 Index
+  - PHLX Semiconductor Index
 
-### Economic Indicators
-- Inflation Rate
-- Federal Reserve Interest Rate
-- Effective Federal Fund Rate
-- Consumer Confidence Index
-- Oil Prices
-- Gold Prices
+- **Economic Indicators and Financial Indices**
+  - Inflation Rate
+  - Federal Reserve Interest Rate
+  - Effective Federal Fund Rate
+  - Consumer Confidence Index
+  - Oil Prices
+  - Gold Prices
 
-### Social Metrics
-- Google Trends data for "AMD" and "Nvidia"
+- **Social Metrics**
+  - Google Trends data for "AMD" and "Nvidia"
+  - 
+### Data Sources   
+  - Time series alignment
+  - Feature engineering
+  - Data normalization
+  - Gap handling
 
 ## Reinforcement Learning Environment
 
