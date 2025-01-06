@@ -126,12 +126,12 @@ The trading environment is built on OpenAI Gymnasium, customized for financial m
 ## Training Strategy
 The training process was carefully designed to ensure optimal model performance and learning efficiency:
 
-### Grid Search Optimization
+### Grid Search Optimisation
 - **Hyperparameters Explored**:
   - Number of steps per episode
   - Batch size
   - Learning rate
-- **Optimization Goal**: Maximize average reward across training runs
+- **Optimization Goal**: Maximise average reward across training runs
 - **Validation Process**: 100 episodes with 100 steps each
 
 ### Full Training Implementation
