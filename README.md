@@ -4,7 +4,7 @@
 The financial industry and stock market analysis have been transformed by digital advancements, particularly with the rise of artificial intelligence. The semiconductor sector, crucial to the third industrial revolution, presents a compelling case study through industry leaders AMD and Nvidia. This research investigates Reinforcement Learning (RL) applications in automated stock trading, aiming to optimise investment strategies through various RL algorithms, including policy networks and deep Q-networks, with the integration of time series and deep learning.
 
 ### Project Overview
-- Background of the essential concepts needed to understand the financial investment market and modern RL algorithms.
+- Background and concepts needed to understand the financial investment market and modern RL algorithms.
 - Data Sourcing and Pre-processing 
 - RL methodologies and training processes.
 - Implementation of multiple RL algorithms.
