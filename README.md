@@ -1,13 +1,22 @@
 # Investigating Reinforcement Learning Approaches in Stock Market Trading
 
 ## Introduction
-The financial industry and stock market analysis have been transformed by digital advancements, particularly with the rise of artificial intelligence. The semiconductor sector, crucial to the third industrial revolution, presents a compelling case study through industry leaders AMD and Nvidia. This research investigates Reinforcement Learning (RL) applications in automated stock trading, aiming to optimize investment strategies through various RL algorithms, including policy networks and deep Q-networks.
+The financial industry and stock market analysis have been transformed by digital advancements, particularly with the rise of artificial intelligence. The semiconductor sector, crucial to the third industrial revolution, presents a compelling case study through industry leaders AMD and Nvidia. This research investigates Reinforcement Learning (RL) applications in automated stock trading, aiming to optimise investment strategies through various RL algorithms, including policy networks and deep Q-networks, with the integration of time series and deep learning.
 
-### Research Objectives
-1. Advancement of RL techniques in financial markets
-2. Integration of comprehensive market indicators
-3. Development of practical trading strategies
-4. Establishment of a research foundation for future work
+### Project Overview
+- Background of the essential concepts needed to understand the financial investment market and modern RL algorithms.
+- Data Sourcing and Pre-processing 
+- RL methodologies and training processes.
+- Implementation of multiple RL algorithms.
+- Integration of time series and deep learning.
+- Comprehensive financial performance analysis and comparison.
+
+### Research Contributions
+1. **Advanced RL Techniques**: Implementation and comparison of multiple RL approaches, especially with time series and deep learning implementation.
+2. **Comprehensive Indicators**: Integration of various financial, economic, and social indicators.
+3. **Practical Trading Insights**: Valuable findings for retail investors and institutions.
+4. **Research Foundation**: Framework for future RL and algorithmic trading research.
+
 
 ## Technical Implementation
 ### Core Technologies
@@ -46,7 +55,7 @@ The financial industry and stock market analysis have been transformed by digita
   - NASDAQ-100 Index
   - PHLX Semiconductor Index
 
-- **Economic Indicators and Financial Indices**
+- **Economic Indicators**
   - Inflation Rate
   - Federal Reserve Interest Rate
   - Effective Federal Fund Rate
@@ -57,10 +66,10 @@ The financial industry and stock market analysis have been transformed by digita
 - **Social Metrics**
   - Google Trends data for "AMD" and "Nvidia"
   - 
-### Data Sources   
+### Data Processing   
   - Time series alignment
   - Feature engineering
-  - Data normalization
+  - Data normalisation
   - Gap handling
 
 ## Reinforcement Learning Environment
